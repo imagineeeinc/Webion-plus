@@ -1,23 +1,23 @@
-# Flems 
+# + 
 
-> As seen on [Flems.io](https://flems.io)
+> As seen on [+](https://flems.io)
 
-Flems is a static web app - no strings attached - browser code playground.
++ is a static web app - no strings attached - browser code playground.
 It's great for documentation, examples, presentations, issues and what not.
 
 <p align="center">
     <a href="https://flems.io">
-        <img src="https://a.flems.io/intro.gif" alt="Flems example">
+        +
     </a>
 </p>
 
 ## Getting started
-Just load a single file [`flems.html`](https://flems.io/flems.html) in a script tag to get started. - [why should i load an .html file as a script tag?](#html-script-tag)
+Just load a single file [`+.html`](https://flems.io/flems.html) in a script tag to get started. - [why should i load an .html file as a script tag?](#html-script-tag)
 
 ``` html
 <script src="https://flems.io/flems.html" type="text/javascript" charset="utf-8"></script>
 <script>
-Flems(document.body, {
++(document.body, {
     files: [{
         name: 'app.js',
         content: 'm.render(document.body, m("h1", "Hello world"))'
@@ -31,7 +31,7 @@ Flems(document.body, {
 </script>
 ```
 
-[Flems.io of the above](https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8WAIwA+ADp0ABNIAqWMmGlLpAMRi4wUwQHpRkuoKRkAbiqQBeCaU3aQhvSdOOADodkaIWlcogMwCgBPaW8AI2QkZBUZJG5YAFdmPgZ4Ml5Q+FgMHJ1ddx0wWAAnMld4aTBi2GsQHHhXMFRdXToIAA94DBI7DHTdHu8wbDwoG2l4INcIWsRO3QArBlMAkrL4cdgsBmLIeFqE+BIAWgAOGzE9ItLyx2v1sWkpWVkAdzI6ONeMLy0ACkGWkI0mAzxe4PIlFQ0loYPB8OkjGY0IA5AxXK4MAswCjCHCES8eHwIHxUbgMMUSVFin8JFI6fA4olkl0wtwkEE8fSJHhaXURDZgTYABLQKDcaSvbjFKBIGwASjpdHlKPx4IAvgBdPEyAlQD4AayaMNBuoJLyREDJZHgWFKUFxaoJk2mqOxjrN5ukCRlqPqjWaugSdFcBoA5hgeLhdLgbXaKKrPRrNfj1YqjLp7rcQOrCPQmCx0FiqMQifx4Kwc3mQJbWJGwCWuLxy6xRMDXCCwbgdmGPsd4NxXNCAMwABlc7QA3GC5vBjgx9WG6NDYCTEMVp7qSM3jiQmMFoWAGHQwMdIKUSJv1fS6ABiQHKU2ybvFXvL6QAJnH7WkABZv5ushYBAZBhjg0L-gBYJsu0Z7bF80KjtISFfhO0ivmEDB-KOhA4ThGDDgArOm6o5pq6pAA)
+[+.io of the above](https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8WAIwA+ADp0ABNIAqWMmGlLpAMRi4wUwQHpRkuoKRkAbiqQBeCaU3aQhvSdOOADodkaIWlcogMwCgBPaW8AI2QkZBUZJG5YAFdmPgZ4Ml5Q+FgMHJ1ddx0wWAAnMld4aTBi2GsQHHhXMFRdXToIAA94DBI7DHTdHu8wbDwoG2l4INcIWsRO3QArBlMAkrL4cdgsBmLIeFqE+BIAWgAOGzE9ItLyx2v1sWkpWVkAdzI6ONeMLy0ACkGWkI0mAzxe4PIlFQ0loYPB8OkjGY0IA5AxXK4MAswCjCHCES8eHwIHxUbgMMUSVFin8JFI6fA4olkl0wtwkEE8fSJHhaXURDZgTYABLQKDcaSvbjFKBIGwASjpdHlKPx4IAvgBdPEyAlQD4AayaMNBuoJLyREDJZHgWFKUFxaoJk2mqOxjrN5ukCRlqPqjWaugSdFcBoA5hgeLhdLgbXaKKrPRrNfj1YqjLp7rcQOrCPQmCx0FiqMQifx4Kwc3mQJbWJGwCWuLxy6xRMDXCCwbgdmGPsd4NxXNCAMwABlc7QA3GC5vBjgx9WG6NDYCTEMVp7qSM3jiQmMFoWAGHQwMdIKUSJv1fS6ABiQHKU2ybvFXvL6QAJnH7WkABZv5ushYBAZBhjg0L-gBYJsu0Z7bF80KjtISFfhO0ivmEDB-KOhA4ThGDDgArOm6o5pq6pAA)
 
 ## Contents
 
@@ -79,11 +79,11 @@ The links array should contain objects with the following structure
     url         : String
 }
 ```
-If the url supports CORS, Flems will open files shorther than 200.000 chars in the editor, if not they'll simply be linked to.
+If the url supports CORS, + will open files shorther than 200.000 chars in the editor, if not they'll simply be linked to.
 
 ## Options
 
-Flems is customizable to fit your need. If you don't want the toolbar or don't care for console output you can easily hide that away. The following options with their defaults are available:
++ is customizable to fit your need. If you don't want the toolbar or don't care for console output you can easily hide that away. The following options with their defaults are available:
 
 ```js
 {
@@ -107,7 +107,7 @@ Flems is customizable to fit your need. If you don't want the toolbar or don't c
 
 ## Methods
 
-There are a few methods exposed to control the Flems runtime:
+There are a few methods exposed to control the + runtime:
 
 ### `.reload()`
 Reloads the runtime page
@@ -115,11 +115,11 @@ Reloads the runtime page
 ### `.focus()`
 Set focus in the editor for the currently selected file
 
-## Bundling Flems
+## Bundling +
 
-Bundling Flems doesn't really make sense. Flems uses an `iframe` as a runtime that needs to be pointed at a URL containing specific code. This is currently done by using the included script both as the required module `Flems` and as the `html` file src for the iframe. If for some reason you'd still want to bundle Flems, be aware you'll either need to make the same setup or point to a Flems specific `runtime.html` file resulting in the same amount of requires. Feel free to create an [issue](https://github.com/porsager/flems/issues) if you need some pointers for doing that.
+Bundling + doesn't really make sense. + uses an `iframe` as a runtime that needs to be pointed at a URL containing specific code. This is currently done by using the included script both as the required module `+` and as the `html` file src for the iframe. If for some reason you'd still want to bundle +, be aware you'll either need to make the same setup or point to a + specific `runtime.html` file resulting in the same amount of requires..
 
-## Tools used to build Flems
+## Tools used to build +
 
 ### [Mithril](https://mithril.js.org)
 Mithril is one of few Javascript frameworks that embraces Javascript - the good parts, it's a small package of [8kb] with everything required to make your web app work.
@@ -131,14 +131,14 @@ BSS is a css-in-js framework taking components to the extreme. No more defining 
 Wright is a developmet environment taking away the hassle of setting up a dev server and running a live reload environment. It even hot reloads JS functions and CSS with no specific app modifications needed.
 
 ### [CodeMirror](https://codemirror.net/)
-CodeMirror powers the editor in Flems, and ensures it works great on any device.
+CodeMirror powers the editor in +, and ensures it works great on any device.
 
 ### [Rollup](https://rollupjs.org/)
 Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application.
 
 ## Html script tag
 
-To allow you to use Flems with only a single file to be required the javascript and the html for the iframe runtime has been merged into a single file disguised as `flems.html`. [It works](https://github.com/porsager/flems/blob/master/scripts/standalone.js) by having the javascript code contained in html comments and the html code contained in javascript comments. In that way if loaded like javascript the html is ignored and when loaded as html the javascript part is ignored.
+To allow you to use + with only a single file to be required the javascript and the html for the iframe runtime has been merged into a single file disguised as `+.html`. [It works](https://github.com/porsager/+/blob/master/scripts/standalone.js) by having the javascript code contained in html comments and the html code contained in javascript comments. In that way if loaded like javascript the html is ignored and when loaded as html the javascript part is ignored.
 
 ## Thanks
 
